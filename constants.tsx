@@ -1,5 +1,6 @@
+
 import React from 'react';
-import type { Technology, TechnologyCategory } from './types';
+import type { Technology, TechnologyCategory } from './types.ts';
 
 // SVG Icons
 const BrainCircuitIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (

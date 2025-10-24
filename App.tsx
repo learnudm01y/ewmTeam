@@ -1,12 +1,13 @@
+
 import React from 'react';
-import { Header } from './components/Header';
-import { Hero } from './components/Hero';
-import { Services } from './components/Services';
-import { Team } from './components/Team';
-import { TechStack } from './components/TechStack';
-import { Projects } from './components/Projects';
-import { Footer } from './components/Footer';
-import { LanguageProvider, useLanguage } from './context/LanguageContext';
+import { Header } from './components/Header.tsx';
+import { Hero } from './components/Hero.tsx';
+import { Services } from './components/Services.tsx';
+import { Team } from './components/Team.tsx';
+import { TechStack } from './components/TechStack.tsx';
+import { Projects } from './components/Projects.tsx';
+import { Footer } from './components/Footer.tsx';
+import { LanguageProvider, useLanguage } from './context/LanguageContext.tsx';
 
 const LoadingScreen: React.FC = () => {
   return (

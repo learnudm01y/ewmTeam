@@ -1,6 +1,7 @@
+
 import React from 'react';
-import { useLanguage } from '../context/LanguageContext';
-import type { TeamMember } from '../types';
+import { useLanguage } from '../context/LanguageContext.tsx';
+import type { TeamMember } from '../types.ts';
 
 const TeamMemberCard: React.FC<{ member: TeamMember }> = ({ member }) => {
   const { translations } = useLanguage();

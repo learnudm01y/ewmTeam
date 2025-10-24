@@ -1,5 +1,6 @@
+
 import React from 'react';
-import { useLanguage } from '../context/LanguageContext';
+import { useLanguage } from '../context/LanguageContext.tsx';
 
 export const Hero: React.FC = () => {
   const { translations, isLoading } = useLanguage();

@@ -1,5 +1,6 @@
+
 import React, { createContext, useState, useContext, useEffect, useCallback } from 'react';
-import type { Translations } from '../types';
+import type { Translations } from '../types.ts';
 
 type Language = 'en' | 'ar';
 type Direction = 'ltr' | 'rtl';

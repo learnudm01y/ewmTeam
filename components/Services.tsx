@@ -1,6 +1,7 @@
+
 import React from 'react';
-import { useLanguage } from '../context/LanguageContext';
-import type { Service } from '../types';
+import { useLanguage } from '../context/LanguageContext.tsx';
+import type { Service } from '../types.ts';
 
 const ServiceCard: React.FC<{ service: Service; index: number }> = ({ service, index }) => {
   const isEven = index % 2 === 0;

@@ -1,6 +1,7 @@
+
 import React, { useState } from 'react';
-import { useLanguage } from '../context/LanguageContext';
-import type { Project } from '../types';
+import { useLanguage } from '../context/LanguageContext.tsx';
+import type { Project } from '../types.ts';
 
 const ProjectCard: React.FC<{ project: Project; index: number }> = ({ project, index }) => {
   const cardClasses = "bg-glass backdrop-blur-xl border border-white/10 rounded-2xl shadow-glass overflow-hidden animate-fade-in-up transition-all duration-300 hover:shadow-accent/20 hover:-translate-y-2 flex flex-col group";

@@ -1,6 +1,7 @@
+
 import React from 'react';
-import { TECHNOLOGY_CATEGORIES } from '../constants';
-import { useLanguage } from '../context/LanguageContext';
+import { TECHNOLOGY_CATEGORIES } from '../constants.tsx';
+import { useLanguage } from '../context/LanguageContext.tsx';
 
 export const TechStack: React.FC = () => {
   const { translations, isLoading } = useLanguage();
