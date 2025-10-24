@@ -70,7 +70,18 @@
 </head>
 <body class="bg-primary text-light font-sans">
     <div id="root"></div>
-    <!-- Changed script type to "text/babel" and added presets for Babel -->
-    <script type="text/babel" data-type="module" data-presets="react,typescript" src="/index.tsx"></script>
+    
+    <!-- Explicitly configure Babel for modern JSX transform and TSX -->
+    <script>
+      Babel.registerPreset('app-preset', {
+        presets: [
+          [Babel.availablePresets['typescript'], { allExtensions: true, isTSX: true }],
+          [Babel.availablePresets['react'], { runtime: 'automatic' }]
+        ]
+      });
+    </script>
+
+    <!-- Use the custom preset to transpile the application entry point -->
+    <script type="text/babel" data-type="module" data-presets="app-preset" src="/index.tsx"></script>
 </body>
 </html>
