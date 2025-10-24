@@ -1,0 +1,172 @@
+
+{
+  "nav_services": "خدماتنا",
+  "nav_team": "الفريق",
+  "nav_tech": "التقنيات",
+  "nav_projects": "مشاريعنا",
+  "hero_title_1": "EWM",
+  "hero_title_2": "للحلول الرقمية",
+  "hero_subtitle": "نحن نقدم حلولاً رقمية مبتكرة وفعالة تمكّن المؤسسات من خلال أنظمة ذكية وقابلة للتطوير، مما يؤدي إلى تحول رقمي كامل.",
+  "hero_button": "اكتشف خدماتنا",
+  "services_title": "خدماتنا الأساسية",
+  "services_subtitle": "من الفكرة إلى التنفيذ، نقدم حلولاً شاملة لتحويل أعمالك.",
+  "key_capabilities": "القدرات الرئيسية:",
+  "our_process": "منهجيتنا:",
+  "team_title": "تعرف على فريقنا",
+  "team_subtitle": "العقول المبدعة وراء حلولنا المبتكرة.",
+  "team_specialty": "التخصص",
+  "tech_title": "التقنيات التي نستخدمها",
+  "tech_subtitle": "نستفيد من أحدث الأدوات والأطر لبناء تطبيقات قوية وقابلة للتطوير.",
+  "projects_title": "مشاريعنا المميزة",
+  "projects_subtitle": "لمحة عن الحلول التي صممناها لعملائنا.",
+  "projects_show_more": "عرض المزيد",
+  "projects_show_less": "عرض أقل",
+  "footer_copyright": "© {year} EWM. جميع الحقوق محفوظة.",
+  "footer_tagline": "نصنع مستقبل التجارب الرقمية.",
+  "tech_category_frontend": "الواجهات الأمامية",
+  "tech_category_backend": "الواجهات الخلفية",
+  "tech_category_database": "قواعد البيانات",
+  "tech_category_ai_automation": "الذكاء الاصطناعي والأتمتة",
+  "tech_category_devops_cloud": "DevOps والحوسبة السحابية",
+  "tech_category_design_tools": "أدوات التصميم",
+  "projects": [
+    { "name": "Waiter.sa", "url": "https://waiter.sa", "description": "منصة رائدة لطلب وتوصيل الطعام عبر الإنترنت في المملكة العربية السعودية." },
+    { "name": "Balusha Team", "url": "https://balushateam.com/", "description": "موقع إلكتروني لشركة رائدة في خدمات المقاولات والإنشاءات." },
+    { "name": "Tamouh.ai", "url": "https://tamouh.ai/", "description": "منصة مدعومة بالذكاء الاصطناعي توفر أدوات متقدمة للشركات والأفراد." },
+    { "name": "Hlayisani Group", "url": "https://hlayisani.com", "description": "موقع إلكتروني احترافي لشركة استثمارية قابضة بارزة." },
+    { "name": "Boulevard Super App", "url": "https://boulevardsuperapp.com/", "description": "منصة متعددة الخدمات تقدم خدمات ترفيهية ونمط حياة وراحة." },
+    { "name": "Soft Collection", "url": "https://softcollection.co.uk/", "description": "منصة تجارة إلكترونية أنيقة لعلامة تجارية بريطانية للمنسوجات المنزلية الفاخرة." },
+    { "name": "Tusk Photo", "url": "https://www.tuskphoto.com/", "description": "موقع portfolio مذهل بصريًا لخدمة تصوير احترافية." },
+    { "name": "Palestinian Causes", "url": "https://www.palestiniancauses.com/", "description": "مركز معلوماتي مخصص لزيادة الوعي بمختلف القضايا الاجتماعية." },
+    { "name": "Tafaol Center", "url": "https://tafaolcenter.org/", "description": "الموقع الرسمي لمركز تعليمي وتنموي واستشاري." },
+    { "name": "Swaeeds", "url": "https://swaeeds.com", "description": "منصة على الإنترنت تربط المستخدمين بمجموعة واسعة من الخدمات والشركات المحلية." },
+    { "name": "Moalime", "url": "https://moalime.com/", "description": "منصة تعليمية عبر الإنترنت تربط الطلاب بمعلمين مؤهلين في مختلف المواد." },
+    { "name": "Makani Homes", "url": "https://makanihomes.com/", "description": "منصة عقارية لإعلانات العقارات والمبيعات والإيجارات في الإمارات العربية المتحدة.", "coverImageUrl": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?q=80&w=2070&auto=format&fit=crop" },
+    { "name": "Multivendor E-commerce", "url": "https://personal-multivendor.netlify.app/", "description": "قالب سوق إلكتروني متعدد البائعين ومتعدد الاستخدامات مع ميزات حديثة." }
+  ],
+  "services": [
+    {
+      "id": "ai",
+      "title": "تطوير ودمج الذكاء الاصطناعي",
+      "imageUrl": "https://res.cloudinary.com/dkrnem01r/image/upload/v1761326332/chatBotServices_klfdqj.png",
+      "description": "أنظمة ذكاء اصطناعي متقدمة لأتمتة القرارات وتحليل البيانات وتحسين تجارب العملاء.",
+      "longDescription": "نقوم بتصميم ودمج أنظمة ذكية تحول العمل اليدوي إلى تدفقات عمل آلية، مما يوفر الوقت ويقلل التكاليف ويحسن الدقة. تتراوح حلولنا من روبوتات المحادثة وفهم الصور إلى التحليلات التنبؤية وأنظمة التوصية.",
+      "process": [
+        { "title": "تحليل الأعمال", "description": "فهم تدفقات العمل والتحديات والأهداف لتحديد أين يمكن للذكاء الاصطناعي أن يضيف قيمة قابلة للقياس." },
+        { "title": "اختيار ودمج النماذج", "description": "اختيار ودمج نماذج الذكاء الاصطناعي المناسبة من مزودين مثل OpenAI و Google و Anthropic، أو تدريب نماذج مخصصة." },
+        { "title": "تصميم الأتمتة", "description": "ربط نظام الذكاء الاصطناعي ببرامجك الحالية (CRM، موقع الويب، إلخ) عبر واجهات برمجة تطبيقات آمنة للحصول على رؤى في الوقت الفعلي." },
+        { "title": "النشر والتحسين", "description": "صقل النماذج باستمرار ومراقبة الأداء من أجل الدقة وقابلية التوسع والامتثال." }
+      ],
+      "capabilities": ["روبوتات الدردشة الذكية", "فهم الصور", "إنشاء وتلخيص النصوص", "التحليلات التنبؤية", "أنظمة التوصيات"],
+      "technologies": ["OpenAI", "Google DeepMind", "Anthropic", "Stability AI", "LangChain"]
+    },
+    {
+      "id": "mobile",
+      "title": "تطوير تطبيقات الموبايل",
+      "imageUrl": "https://res.cloudinary.com/dkrnem01r/image/upload/v1761326333/Gemini_Generated_Image_z46cndz46cndz46c_sfidlt.png",
+      "description": "تطبيقات عالية الأداء ومتعددة المنصات لنظامي iOS و Android باستخدام Flutter.",
+      "longDescription": "نبني تطبيقات جوال سريعة ومستقرة وجذابة من قاعدة بيانات موحدة. هدفنا هو تقديم أداء على مستوى المؤسسات وتصميم حديث، مما يعزز علامتك التجارية ويحقق نتائج أعمال حقيقية.",
+      "process": [
+        { "title": "اكتشاف الأعمال", "description": "فهم نموذج عملك والمستخدمين المستهدفين والمشكلات التي يجب أن يحلها التطبيق." },
+        { "title": "بحث وتصميم تجربة المستخدم", "description": "تصميم إطارات سلكية ونماذج أولية تفاعلية لتخطيط رحلات المستخدم من أجل البساطة والوضوح." },
+        { "title": "تطوير تطبيقات Flutter", "description": "بناء التطبيق باستخدام Flutter و Dart للحصول على أداء عالٍ وتطوير سريع واتساق." },
+        { "title": "تكامل واجهات برمجة التطبيقات والأنظمة", "description": "ربط تطبيقك بالأنظمة الحالية مثل CRMs والخلفيات التجارية وبوابات الدفع." },
+        { "title": "النشر والصيانة", "description": "التعامل مع النشر في App Store و Google Play، وإعداد خطوط أنابيب CI/CD." }
+      ],
+      "capabilities": ["تطوير متعدد المنصات", "ميزات معززة بالذكاء الاصطناعي", "أنظمة الدفع والتجارة الإلكترونية", "وضع عدم الاتصال ومزامنة البيانات", "لوحات تحكم مخصصة للمسؤولين"],
+      "technologies": ["Flutter / Dart", "Firebase / Firestore", "Node.js / Python", "AWS / Google Cloud", "Stripe / PayPal"]
+    },
+    {
+      "id": "web",
+      "title": "تطوير تطبيقات الويب",
+      "imageUrl": "https://res.cloudinary.com/dkrnem01r/image/upload/v1761326337/Gemini_Generated_Image_g0zyalg0zyalg0zy_jqcrsm.png",
+      "description": "تطبيقات ويب حديثة وآمنة وقابلة للتطوير تعمل بمثابة العمود الفقري الرقمي لعملك.",
+      "longDescription": "نقوم بهندسة أنظمة تبسط العمليات وتؤتمت تدفقات العمل وتعزز تجربة المستخدم من البداية إلى النهاية. من منصات الويب المخصصة وأنظمة التجارة الإلكترونية إلى لوحات معلومات المسؤول، نبني حلولاً موثوقة بأمان وأداء قويين.",
+      "process": [
+        { "title": "تحليل الأعمال والأنظمة", "description": "تحليل مؤسستك بعمق لتحديد كيفية تحسين العمليات الداخلية." },
+        { "title": "هندسة وتصميم واجهة المستخدم/تجربة المستخدم", "description": "تحديد بنية النظام وقواعد البيانات وتجربة المستخدم من أجل الوظائف والوضوح." },
+        { "title": "تطوير وتكامل الويب", "description": "البناء باستخدام أطر عمل موثوقة، والجمع بين الكود النظيف والأمان القوي والتكامل السلس." },
+        { "title": "الاختبار وضمان الجودة", "description": "إجراء اختبارات وظيفية وأداء وأمان عميقة لضمان أداء لا تشوبه شائبة." },
+        { "title": "النشر والتحسين", "description": "النشر على بيئات سحابية آمنة (AWS, Azure, GCP) مع خطوط أنابيب CI/CD." }
+      ],
+      "capabilities": ["منصات ويب مخصصة", "أنظمة التجارة الإلكترونية", "لوحات تحكم المسؤول", "تحسينات مدعومة بالذكاء الاصطناعي", "واجهات برمجة تطبيقات وتكاملات آمنة"],
+      "technologies": ["React / Next.js", "Node.js / Python / PHP Laravel", "PostgreSQL / MongoDB", "Docker / Kubernetes", "AWS / Google Cloud"]
+    },
+    {
+      "id": "uiux",
+      "title": "تصميم النظم وواجهة/تجربة المستخدم",
+      "imageUrl": "https://res.cloudinary.com/dkrnem01r/image/upload/v1761326334/Gemini_Generated_Image_kibm56kibm56kibm_txoy3a.png",
+      "description": "تصميم أنظمة وواجهات تحول التعقيد إلى وضوح وتعمل بشكل جميل.",
+      "longDescription": "يربط نهجنا الهيكل الفني بالتجربة البشرية، مما يضمن أن كل عملية وشاشة وتفاعل وظيفي وبديهي ومتوافق مع أهداف عملك. ندمج الإبداع مع المنطق لتقديم تجارب رقمية لا تشوبها شائبة.",
+      "process": [
+        { "title": "البحث والاكتشاف", "description": "تحليل المستخدمين وأهداف العمل ونقاط الضعف في سير العمل لفهم ما يحتاجه المستخدمون حقًا." },
+        { "title": "هندسة المعلومات", "description": "هيكلة نظامك في تدفقات منطقية وتسلسلات هرمية لسهولة التنقل." },
+        { "title": "الإطارات السلكية والنماذج الأولية", "description": "تصميم نماذج أولية منخفضة وعالية الدقة لتصور النظام وتحسين قابلية الاستخدام." },
+        { "title": "تصميم واجهة المستخدم ومواءمة العلامة التجارية", "description": "صياغة واجهات مرئية جمالية وهادفة تعكس هوية علامتك التجارية." },
+        { "title": "اختبار قابلية الاستخدام والتحسين", "description": "الاختبار مع مستخدمين حقيقيين لمراقبة السلوك والتكرار حتى تشعر الواجهة بالسهولة." }
+      ],
+      "capabilities": ["تصميم بنية النظام", "تصميم واجهة المستخدم (UI)", "استراتيجية تجربة المستخدم (UX)", "نماذج أولية تفاعلية", "أنظمة التصميم وأدلة الأسلوب"],
+      "technologies": ["Figma / Adobe XD", "Miro / Whimsical", "Zeplin / Avocode", "Notion / Jira", "Hotjar / Google Analytics"]
+    },
+    {
+      "id": "devops",
+      "title": "خدمات DevOps",
+      "imageUrl": "https://res.cloudinary.com/dkrnem01r/image/upload/v1761326329/Gemini_Generated_Image_rdl3y1rdl3y1rdl3_myk4ug.png",
+      "description": "بناء أساس موثوق وسريع وآمن لنظامك الرقمي.",
+      "longDescription": "تسد خدمات DevOps الخاصة بنا الفجوة بين التطوير والعمليات، مما يتيح التسليم المستمر وقابلية التوسع والمرونة في كل مرحلة من مراحل دورة حياة منتجك. نحن نحول تسليم برامجك من رد الفعل إلى استباقي، ومن يدوي إلى آلي.",
+      "process": [
+        { "title": "تقييم البنية التحتية", "description": "تحليل البنية التحتية الحالية وأساليب النشر والاختناقات لتحديد التحسينات." },
+        { "title": "تصميم خط أنابيب CI/CD", "description": "إنشاء خطوط أنابيب CI/CD التي تؤتمت اختبار الكود والبنيات والإصدارات لتسليم أسرع." },
+        { "title": "إعداد السحابة والحاويات", "description": "نشر التطبيقات باستخدام Docker و Kubernetes لسهولة النقل وقابلية التوسع على AWS أو Azure أو GCP." },
+        { "title": "المراقبة والأمان", "description": "تنفيذ المراقبة في الوقت الفعلي والتسجيل والتنبيه والنسخ الاحتياطي التلقائي ومسح الثغرات الأمنية." },
+        { "title": "التحسين المستمر", "description": "تحسين الأداء وقابلية التوسع وكفاءة التكلفة باستمرار من خلال التعديلات المستندة إلى البيانات." }
+      ],
+      "capabilities": ["أتمتة CI/CD", "إدارة البنية التحتية السحابية", "الحاويات والتنسيق", "المراقبة والتنبيه", "النسخ الاحتياطي والتعافي من الكوارث"],
+      "technologies": ["Docker / Kubernetes", "AWS / Azure / Google Cloud", "GitLab CI / Jenkins", "Terraform / Ansible", "Prometheus / Grafana"]
+    }
+  ],
+  "team_members": [
+    {
+      "name": "ناصر الفرا",
+      "role": "مطور ويب متكامل",
+      "specialty": "تطوير الويب",
+      "imageUrl": "https://res.cloudinary.com/dkrnem01r/image/upload/v1761323992/Untitled_hywmla.png"
+    },
+    {
+      "name": "عز الدين الفرا",
+      "role": "مطور ويب خلفي",
+      "specialty": "تطوير الويب",
+      "imageUrl": "https://res.cloudinary.com/dkrnem01r/image/upload/v1761324456/Untitled_1_rg3ilp.png"
+    },
+    {
+      "name": "أسامة شراب",
+      "role": "مطور تطبيقات محمول متكامل",
+      "specialty": "تطوير الموبايل",
+      "imageUrl": "https://res.cloudinary.com/dkrnem01r/image/upload/v1761323485/%D8%A7%D8%B3%D8%A7%D9%85%D8%A9_%D8%B4%D8%B1%D8%A7%D8%A8_xcx9sd.jpg"
+    },
+    {
+      "name": "محمد أبو سيدو",
+      "role": "مطور ويب وموبايل متكامل",
+      "specialty": "تطوير الويب والموبايل",
+      "imageUrl": "https://res.cloudinary.com/dsnz5chtc/image/upload/v1761330749/Gemini_Generated_Image_7rosk7rosk7rosk7_1_btlntv.png"
+    },
+    {
+      "name": "شوقي فارس",
+      "role": "مطور ويب متكامل",
+      "specialty": "تطوير الويب",
+      "imageUrl": "https://res.cloudinary.com/dsnz5chtc/image/upload/v1761330753/Gemini_Generated_Image_25vi9025vi9025vi_uqwkup.png"
+    },
+    {
+      "name": "بهاء المقيد",
+      "role": "مطور ويب للواجهات الأمامية",
+      "specialty": "تطوير الويب",
+      "imageUrl": "https://res.cloudinary.com/dsnz5chtc/image/upload/v1761330757/Gemini_Generated_Image_tr8jhftr8jhftr8j_hpehlr.png"
+    },
+    {
+      "name": "أسامة عثمان",
+      "role": "مطور ويب للواجهات الأمامية",
+      "specialty": "تطوير الويب",
+      "imageUrl": "https://res.cloudinary.com/dsnz5chtc/image/upload/v1761331614/Gemini_Generated_Image_ymvyoiymvyoiymvy_ymnp3t.png"
+    }
+  ]
+}
