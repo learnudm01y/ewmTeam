@@ -1,8 +1,8 @@
 import React from 'react';
-import { useTranslation } from '../hooks/useTranslation';
+import { useLanguage } from '../context/LanguageContext';
 
 export const Hero: React.FC = () => {
-  const { translations, isLoading } = useTranslation();
+  const { translations, isLoading } = useLanguage();
 
   if (isLoading || !translations) {
     return <section id="home" className="min-h-screen" />;

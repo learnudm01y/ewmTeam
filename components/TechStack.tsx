@@ -1,9 +1,9 @@
 import React from 'react';
 import { TECHNOLOGY_CATEGORIES } from '../constants';
-import { useTranslation } from '../hooks/useTranslation';
+import { useLanguage } from '../context/LanguageContext';
 
 export const TechStack: React.FC = () => {
-  const { translations, isLoading } = useTranslation();
+  const { translations, isLoading } = useLanguage();
 
   if (isLoading || !translations) {
     return <section id="tech" className="py-20" />;

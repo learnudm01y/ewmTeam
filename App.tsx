@@ -6,8 +6,7 @@ import { Team } from './components/Team';
 import { TechStack } from './components/TechStack';
 import { Projects } from './components/Projects';
 import { Footer } from './components/Footer';
-import { LanguageProvider } from './context/LanguageContext';
-import { useTranslation } from './hooks/useTranslation';
+import { LanguageProvider, useLanguage } from './context/LanguageContext';
 
 const LoadingScreen: React.FC = () => {
   return (
@@ -22,7 +21,7 @@ const LoadingScreen: React.FC = () => {
 };
 
 const AppContent: React.FC = () => {
-  const { isLoading } = useTranslation();
+  const { isLoading } = useLanguage();
 
   if (isLoading) {
     return <LoadingScreen />;

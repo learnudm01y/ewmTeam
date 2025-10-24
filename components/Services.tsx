@@ -1,10 +1,10 @@
 import React from 'react';
-import { useTranslation } from '../hooks/useTranslation';
+import { useLanguage } from '../context/LanguageContext';
 import type { Service } from '../types';
 
 const ServiceCard: React.FC<{ service: Service; index: number }> = ({ service, index }) => {
   const isEven = index % 2 === 0;
-  const { translations } = useTranslation();
+  const { translations } = useLanguage();
 
   return (
     <div className="py-16 animate-fade-in-up">
@@ -51,7 +51,7 @@ const ServiceCard: React.FC<{ service: Service; index: number }> = ({ service, i
 
 
 export const Services: React.FC = () => {
-  const { translations, isLoading } = useTranslation();
+  const { translations, isLoading } = useLanguage();
 
   if (isLoading || !translations) {
     return <section id="services" className="py-20" />;

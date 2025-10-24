@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { useLanguage } from '../context/LanguageContext';
-import { useTranslation } from '../hooks/useTranslation';
 
 const MenuIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
   <svg {...props} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -29,8 +28,7 @@ const GlobeIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
 export const Header: React.FC = () => {
   const [scrolled, setScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const { language, toggleLanguage } = useLanguage();
-  const { translations, isLoading } = useTranslation();
+  const { language, toggleLanguage, translations, isLoading } = useLanguage();
 
   useEffect(() => {
     const handleScroll = () => {

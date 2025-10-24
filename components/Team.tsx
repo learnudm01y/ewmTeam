@@ -1,9 +1,9 @@
 import React from 'react';
-import { useTranslation } from '../hooks/useTranslation';
+import { useLanguage } from '../context/LanguageContext';
 import type { TeamMember } from '../types';
 
 const TeamMemberCard: React.FC<{ member: TeamMember }> = ({ member }) => {
-  const { translations } = useTranslation();
+  const { translations } = useLanguage();
   return (
     <div 
       className="bg-glass backdrop-blur-xl border border-white/10 rounded-2xl shadow-glass transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-accent/20 animate-fade-in-up text-center py-10 px-6"
@@ -26,7 +26,7 @@ const TeamMemberCard: React.FC<{ member: TeamMember }> = ({ member }) => {
 };
 
 export const Team: React.FC = () => {
-  const { translations, isLoading } = useTranslation();
+  const { translations, isLoading } = useLanguage();
 
   if (isLoading || !translations) {
     return <section id="team" className="py-20" />;

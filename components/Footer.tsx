@@ -1,8 +1,8 @@
 import React from 'react';
-import { useTranslation } from '../hooks/useTranslation';
+import { useLanguage } from '../context/LanguageContext';
 
 export const Footer: React.FC = () => {
-  const { translations, isLoading } = useTranslation();
+  const { translations, isLoading } = useLanguage();
 
   if (isLoading || !translations) {
     return <footer className="bg-glass backdrop-blur-xl border-t border-white/10 h-24"></footer>;

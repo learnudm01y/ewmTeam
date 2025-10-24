@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useTranslation } from '../hooks/useTranslation';
+import { useLanguage } from '../context/LanguageContext';
 import type { Project } from '../types';
 
 const ProjectCard: React.FC<{ project: Project; index: number }> = ({ project, index }) => {
@@ -55,7 +55,7 @@ const INITIAL_VISIBLE_COUNT = 6;
 const PROJECTS_PER_PAGE = 6;
 
 export const Projects: React.FC = () => {
-  const { translations, isLoading } = useTranslation();
+  const { translations, isLoading } = useLanguage();
   const [visibleCount, setVisibleCount] = useState(INITIAL_VISIBLE_COUNT);
 
   if (isLoading || !translations?.projects) {
