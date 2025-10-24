@@ -54,7 +54,9 @@
         scroll-margin-top: 80px; /* Header height is h-20 (5rem = 80px) */
       }
     </style>
-<script type="importmap">
+    <!-- Add Babel for in-browser transpilation of TSX files -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="importmap">
 {
   "imports": {
     "react": "https://esm.sh/react@18.2.0",
@@ -68,6 +70,7 @@
 </head>
 <body class="bg-primary text-light font-sans">
     <div id="root"></div>
-    <script type="module" src="/index.tsx"></script>
+    <!-- Changed script type to "text/babel" and added presets for Babel -->
+    <script type="text/babel" data-type="module" data-presets="react,typescript" src="/index.tsx"></script>
 </body>
 </html>
